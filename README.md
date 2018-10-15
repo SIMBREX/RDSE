@@ -63,7 +63,7 @@ To encrypt text data, we recommend using the `RDSEText` class (you need the main
   char[] charSet = new char[]{'a', 'b', 'c'};
   // The number of characters must be at least 3!
   // Characters should not be repeated!
-  rdseText.setCharset(charSet);
+  rdseText.setCharSet(charSet);
   String encryptedText = rdseText.encrypt(text, key);
   // When decrypted, the character set must match the set used for encryption!
   String originalText = rdseText.decrypt(encryptedText, key);
