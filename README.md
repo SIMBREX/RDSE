@@ -11,15 +11,15 @@
 ## How to use
 * Create an object of class `RDSE`:
 ```java
-  RDSE n = new RDSE();
+  RDSE rdse = new RDSE();
 ```
 
 * Encrypt and decrypt data can be methods `encrypt` and `decrypt`:
 ```java
   RDSE rdse = new RDSE();
   byte[] data, key; // Any data in byte format
-  byte[] ecryptedData = rdse.encrypt(data, key);
-  byte[] originalData = rdse.decrypt(ecryptedData, key);
+  byte[] encryptedData = rdse.encrypt(data, key);
+  byte[] originalData = rdse.decrypt(encryptedData, key);
 ```
 
 * You can set the encryption depth by specifying its third parameter:
