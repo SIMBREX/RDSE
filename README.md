@@ -23,12 +23,19 @@
 ```
 
 * You can set the encryption depth by specifying its third parameter:
-
 ```java
   RDSE rdse = new RDSE();
   int depth = 100; // The greater the value, the more operations must be performed to decrypt.
   byte[] encryptedData = rdse.encrypt(data, key, depth);
   byte[] originalData = rdse.decrypt(encryptedData, key, depth);
+```
+
+* In addition to encrypting and decrypting data, hash generation is also possible (100% uniqueness is not guaranteed):
+```java
+  RDSE rdse = new RDSE();
+  int depth = 100; // The greater the value, the more operations must be performed to decrypt.
+  byte[] hash = rdse.hash(data, key);
+  byte[] hashWithDepth = rdse.hash(data, key, depth);
 ```
 
 ## Text Encryption Assistant
@@ -37,13 +44,20 @@ To encrypt text data, we recommend using the `RDSEText` class (you need the main
 ![Example image](https://rdse.simbrex.com/src/github/install_2.png)
 
 * You can also encrypt and decrypt using the `encrypt` and `decrypt` methods:
-
 ```java
   RDSEText rdseText = new RDSEText();
   String text = "My text";
   String key = "My key";
   String encryptedText = rdseText.encrypt(text, key);
   String originalText = rdseText.decrypt(encryptedText, key);
+```
+
+* And also generate hashes:
+```java
+  RDSEText rdseText = new RDSEText();
+  String text = "My text";
+  String key = "My key";
+  String textHash = rdseText.hash(text, key);
 ```
 
 * You can set the encryption depth using the `setDepth` method:
@@ -67,6 +81,9 @@ To encrypt text data, we recommend using the `RDSEText` class (you need the main
   String encryptedText = rdseText.encrypt(text, key);
   // When decrypted, the character set must match the set used for encryption!
   String originalText = rdseText.decrypt(encryptedText, key);
+  
+  // This also works with hashes:
+  String textHash = rdseText.hash(encryptedText, key);
 ```
 
 ## License
