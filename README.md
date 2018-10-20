@@ -1,7 +1,7 @@
 # RDSE
-[![VERSION](https://img.shields.io/badge/version-1.0-blue.svg?longCache=true&style=for-the-badge)](https://github.com/SIMBREX/RDSE/releases) [![GET](https://img.shields.io/badge/-DOWLOAD-orange.svg?longCache=true&style=for-the-badge)](https://github.com/SIMBREX/RDSE/releases) [![GET](https://img.shields.io/badge/-Android%20App-yellow.svg?longCache=true&style=for-the-badge)](https://play.google.com/store/apps/details?id=com.simbrex.encryptit) [![GET](https://img.shields.io/badge/-Web%20Version-yellow.svg?longCache=true&style=for-the-badge)](https://rdse.simbrex.com)
+[![VERSION](https://img.shields.io/badge/version-0.1_(experimental)-red.svg?longCache=true&style=for-the-badge)](https://github.com/SIMBREX/RDSE/releases) [![GET](https://img.shields.io/badge/-DOWLOAD-orange.svg?longCache=true&style=for-the-badge)](https://github.com/SIMBREX/RDSE/releases) [![GET](https://img.shields.io/badge/-Android%20App-yellow.svg?longCache=true&style=for-the-badge)](https://play.google.com/store/apps/details?id=com.simbrex.encryptit) [![GET](https://img.shields.io/badge/-Web%20Version-yellow.svg?longCache=true&style=for-the-badge)](https://rdse.simbrex.com)
 
-[![GET](https://img.shields.io/badge/-JAVASCRIPT-brightgreen.svg?longCache=true&style=for-the-badge)](https://github.com/SIMBREX/RDSE/releases) [![GET](https://img.shields.io/badge/-PHP-lightgrey.svg?longCache=true&style=for-the-badge)](https://github.com/SIMBREX/RDSE/releases)
+[![GET](https://img.shields.io/badge/-JAVASCRIPT-brightgreen.svg?longCache=true&style=for-the-badge)](https://github.com/SIMBREX/RDSE/releases) [![GET](https://img.shields.io/badge/-PHP-blue.svg?longCache=true&style=for-the-badge)](https://github.com/SIMBREX/RDSE/releases)
 
 ## Installation
 [Download](https://github.com/SIMBREX/RDSE/releases) the file `RDSE.java` and copy to any convenient place in your project.
