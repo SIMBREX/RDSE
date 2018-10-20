@@ -129,5 +129,4 @@ public class RDSEText extends RDSE {
         }
         return result;
     }
-
 }
