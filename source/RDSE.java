@@ -78,7 +78,7 @@ class RDSE {
                 keySign1 = signBuffer;
                 k = 0;
             }
-            result[i] = (byte) (data[i] ^ key[k]);
+            result[i] = (byte)(data[i] ^ key[k]);
             for (int j = 0; j < bSign.length; j++) {
                 result[i] ^= bSign[j][bSignCounter[j]];
                 bSignCounter[j]++;
@@ -121,7 +121,7 @@ class RDSE {
                 keySign1 = signBuffer;
                 k = 0;
             }
-            result[i] = (byte) (data[i] ^ key[k]);
+            result[i] = (byte)(data[i] ^ key[k]);
             for (int j = 0; j < bSign.length; j++) {
                 result[i] ^= bSign[j][bSignCounter[j]];
                 bSignCounter[j]++;
@@ -163,7 +163,7 @@ class RDSE {
                 dataSign = signBuffer;
                 k = 0;
             }
-            result[i] = (byte) (data[i] ^ key[k]);
+            result[i] = (byte)(data[i] ^ key[k]);
             for (int j = 0; j < bSign.length; j++) {
                 result[i] ^= bSign[j][bSignCounter[j]];
                 bSignCounter[j]++;
